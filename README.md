@@ -71,6 +71,7 @@ We’ll be creating a file named nginx.conf in same directory where docker-compo
  
 
 **2.	Running services using docker-compose**
+
 Now, Run all the three services at once using a simple docker-compose command, as shown in below picture:
  
 Now, check the running applications using docker ps command, as shown below
