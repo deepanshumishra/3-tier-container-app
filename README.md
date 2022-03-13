@@ -4,7 +4,7 @@ We are going to deploy a 3-tier application using docker-compose
 First task would be to choose application.
 I’ll deploy NextCloud web application with MySQL as database and nginx as reverse proxy
 **1.	Creating docker-compose.yml**
-
+```yaml
 version: '3'
 services:
   mysql:
@@ -55,6 +55,7 @@ services:
 networks:
   deepnetwork:
     driver: bridge
+```
  
 Now in the above file I’ve used few Variables to get them filled at build time we need to create a variable file called    .env in the present directory.
  
