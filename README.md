@@ -101,6 +101,11 @@ Now, check the running applications using docker ps command, as shown below
 Head toward the localhost at 80 port  as per our nginx.conf configuration file we should land to NextCloud landing page, let’s see
 ![image](https://user-images.githubusercontent.com/49090565/158077442-5443b0b5-0490-41b6-a8e6-e139b6dbeb78.png)
 
+We can also check if our applications are really using exact amount of Resources we allocated or not, to verify that we will use command **docker stats** and it will show something as shown below:
+![image](https://user-images.githubusercontent.com/49090565/158077509-aae8358c-5f84-4680-b9f4-9066630718f1.png)
+
+
+
  
 
 Cool we are Done!!
