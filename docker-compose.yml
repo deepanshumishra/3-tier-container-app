@@ -4,6 +4,11 @@ services:
     networks:
       - deepnetwork
     image: mysql:${MYSQL_VERSION}
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 50M
     container_name: mysql
     restart: on-failure
     volumes:
@@ -15,6 +20,11 @@ services:
     networks:
       - deepnetwork
     image: nextcloud:${NEXTCLOUD_VERSION}
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 50M
     container_name: nextcloud
     restart: on-failure
     volumes:
@@ -36,6 +46,11 @@ services:
     networks:
       - deepnetwork
     image: nginx
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 50M
     container_name: nginx-proxy
     restart: on-failure
     ports:
