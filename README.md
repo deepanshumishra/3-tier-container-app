@@ -76,4 +76,4 @@ Now, check the running applications using docker ps command, as shown below
 Head toward the localhost at 80 port  as per our nginx.conf configuration file we should land to NextCloud landing page, let’s see
  
 
-Cool we are Done!
+Cool we are Done!!
