@@ -2,7 +2,8 @@
 
 We are going to deploy a 3-tier application using docker-compose
 First task would be to choose application.
-I’ll deploy NextCloud web application with MySQL as database and nginx as reverse proxy
+I’ll deploy NextCloud web application with MySQL as database and nginx as reverse proxy.
+
 **1.	Creating docker-compose.yml**
 ```yaml
 version: '3'
